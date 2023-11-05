@@ -340,13 +340,13 @@ div.dataTables_wrapper div.dataTables_filter input {
     color: #ffffff;
     border-radius: 50px;
     z-index: 1;
-    background: #f89321;
+    background: var(--blue-color);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     display: inline-block;
     white-space: nowrap;
 /*    min-width: 200px !important;*/
-    border: 1px solid #1E3672;
+    border: 1px solid var(--blue-color);
 }
 
 .btnCust-1:before {
@@ -356,7 +356,7 @@ div.dataTables_wrapper div.dataTables_filter input {
   bottom: 0;
   left: 0;
   content: "";
-  background-color: #f89321 !important;
+  background-color: var(--orange-color) !important;
   -webkit-clip-path: polygon(50% 0, 50% 0, 50% 50%, 50% 100%, 50% 100%, 50% 50%);
   clip-path: polygon(50% 0, 50% 0, 50% 50%, 50% 100%, 50% 100%, 50% 50%);
   -webkit-transition: all 500ms ease;
